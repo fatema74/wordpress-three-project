@@ -1,0 +1,305 @@
+/* header responsive css */
+@media (max-width: 2500px) {
+  .hero-section::after {
+    width: 38%;
+  }
+  .about-section::before {
+    width: 35%;
+  }
+  .wcs-section::before{
+    width: 25%;
+  }
+}
+
+@media (max-width: 2100px) {
+  .hero-section::after {
+    width: 35%;
+  }
+  .about-section::before {
+    width: 32%;
+  }
+  .wcs-section::before{
+    width: 20%;
+  }
+}
+
+@media (max-width: 1920px) {
+  .header-contant {
+    gap: 190px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .hero-contant-wrapper .hero-show {
+    left: 33%;
+  }
+  .hero-stoke-text {
+    font-size: 240px;
+    right: -190px;
+  }
+  .hero-section::after {
+    width: 30%;
+  }
+  .about-contant-wrapper {
+    gap: 40px;
+  }
+  .stroke-gradient-text {
+    font-size: 150px;
+  }
+  .wcs-section > h2{
+    font-size: 110px;
+  }
+  .wcs-image-right{
+    flex-shrink: initial;
+  }
+}
+
+@media (max-width: 1400px) {
+  .hero-section::after {
+    width: 27%;
+  }
+  .header-contant {
+    gap: 60px;
+  }
+  .header-right {
+    gap: 60px;
+  }
+  .about-contant .about-subtitle {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .about-contant .about-subtitle::before {
+    bottom: 16px;
+  }
+  .about-contant h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .about-left .about-stoke-text {
+    font-size: 200px;
+  }
+  .wcs-section > h2{
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .stroke-gradient-text {
+    font-size: 115px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-section::after {
+    display: none;
+  }
+  .hero-contant-wrapper .hero-show {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .hero-section .container {
+    max-width: 800px;
+  }
+  .header-nav-menu ul li {
+    padding: 0 15px;
+  }
+  .header-section .container {
+    padding-right: 0;
+  }
+  .tranding-product-slider-control {
+    padding-left: 15%;
+  }
+  .about-contant-wrapper {
+    display: block;
+  }
+  .about-section::before {
+    width: 100%;
+    height: 450px;
+  }
+  .about-contant {
+    margin-top: 80px;
+    width: 100%;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .about-section .container-lg {
+    max-width: 850px;
+  }
+  .about-left .about-stoke-text {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .best-selling {
+    margin-top: 0;
+  }
+  .bst-product-row .product-card {
+    width: calc(50% - 13px);
+  }
+  .wcs-row{
+  flex-wrap: wrap;
+}
+.wcs-contant-left{
+  width: 100%;
+  order: 2;
+}
+.wcs-section::before{
+  display: none;
+}
+.wcs-section > h2{
+  display: none;
+}
+.wcs-image-right{
+width: 100%;
+text-align: center;
+}
+}
+
+
+
+@media (min-width: 1200.98px){
+  .hide-large-screen{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px){
+  .feedback-contant h2{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .feedback-section > h2{
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 980px) {
+  .header-section .container {
+    padding-right: 0;
+  }
+  .mobile-menu-btn {
+    display: inline-flex;
+  }
+  .canvas-btn {
+    display: none;
+  }
+  .header-right .header-nav-menu {
+    display: none;
+  }
+  .tranding-contant-wraper {
+    flex-wrap: wrap;
+  }
+  .section-left {
+    margin-bottom: 20px;
+  }
+  .tranding-section .container {
+    max-width: 800px;
+  }
+  .stroke-gradient-text {
+    font-size: 70px;
+  }
+  .best-selling > h2 {
+    margin-right: 0;
+  }
+  .wcs-fature-row{
+  flex-wrap: wrap;
+}
+.fature-card{
+  width: 100%;
+}
+}
+
+
+
+@media (max-width: 768px) {
+  .hero-contant .hero-subtitle {
+    font-size: 32px;
+    line-height: 34px;
+    padding-left: 50px;
+  }
+  .hero-section {
+    padding: 120px 0 220px;
+  }
+  .hero-contant .hero-subtitle::before {
+    width: 40px;
+  }
+  .hero-contant .hero-title {
+    font-size: 80px;
+    line-height: 99px;
+  }
+  .stroke-gradient-text {
+    font-size: 50px;
+  }
+  .common-title h2 {
+    font-size: 50px;
+  }
+  .filter-nav {
+    gap: 16px;
+  }
+  .bst-product-row .product-card {
+    width: calc(100% - 13px);
+  }
+.section-title{
+font-size: 70px;
+line-height: 60px;
+}
+.wcs-contant-left .about-subtitle::before{
+bottom: 12px;
+}
+}
+
+@media (max-width: 580px) {
+  .header-section .container {
+    padding-right: 0;
+  }
+  .circle-btn {
+    display: none;
+  }
+  .tranding-product-slider-control {
+    padding-left: 8%;
+  }
+  .section-left h3 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .section-left {
+    flex-shrink: initial;
+    margin-bottom: 20px;
+  }
+  .rounded-btn-primary {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+  .circle-shape {
+    width: 360px;
+    height: 360px;
+  }
+  .about-left .about-stoke-text {
+    font-size: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+  }
+  .about-subtitle {
+    font-size: 32px;
+    padding-left: 70px;
+  }
+  .about-subtitle::before {
+    width: 60px;
+  }
+  .about-contant h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .section-title{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .feedback-contant h2{
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
