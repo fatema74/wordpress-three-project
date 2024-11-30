@@ -94,13 +94,25 @@ h6 {
 
 @keyframes movementing {
   0% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
   50% {
     transform: translateY(150px);
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes movement-tow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -117,8 +129,7 @@ h6 {
 
 .header-section {
   position: relative;
-  z-index: 2;
-  overflow: hidden;
+  z-index: 1;
 }
 
 .header-contant {
@@ -1117,13 +1128,13 @@ h6 {
   overflow: hidden;
 }
 
-.footer-buble{
+.footer-buble {
   position: absolute;
-  right: 30px;
+  right: 40px;
   top: 0;
   z-index: -1;
   width: 100px;
-  animation: 6s movement infinite;
+  animation: 10s movement-tow infinite;
 }
 
 .footer-section::before {
@@ -1274,12 +1285,12 @@ h6 {
   color: #ff4d00;
 }
 
-.footer-nav ul li a.active{
+.footer-nav ul li a.active {
   padding-left: 12px;
   color: #ff4d00;
 }
 
-.footer-nav ul li a.active::before{
+.footer-nav ul li a.active::before {
   opacity: 1;
 }
 

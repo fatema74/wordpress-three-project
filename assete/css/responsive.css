@@ -90,6 +90,9 @@
 }
 
 @media (max-width: 1300px) {
+  .footer-left {
+    max-width: 500px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -166,6 +169,12 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .footer-left {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 1000px) {
   .feedback-contant h2 {
     font-size: 60px;
@@ -179,9 +188,42 @@
     line-height: 50px;
     margin-top: -16px;
   }
-  .discount-section{
-  padding-bottom: 70px;
-}
+  .discount-section {
+    padding-bottom: 70px;
+  }
+  .footer-row {
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    width: 100%;
+  }
+  .footer-right {
+    width: 100%;
+  }
+  .footer-section::before {
+    width: 100%;
+  }
+  .footer-buble {
+    opacity: 0.3;
+  }
+  .footer-right h4 {
+    color: white;
+  }
+  .footer-nav ul li a {
+    color: white;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    background: #ffffff14;
+    color: white;
+  }
+  .newsletter-form input {
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    background: #ffffff14;
+  }
+  .newsletter-form input::placeholder {
+    color: #ffffff89;
+  }
 }
 
 @media (max-width: 980px) {
@@ -226,7 +268,7 @@
     /* text-align: center; */
     justify-content: center;
   }
-  .discount-banner .discount-bannaer-contant{
+  .discount-banner .discount-bannaer-contant {
     order: 2;
   }
 }
@@ -266,6 +308,9 @@
   .wcs-contant-left .about-subtitle::before {
     bottom: 12px;
   }
+  .footer-nav ul {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 580px) {
@@ -301,7 +346,7 @@
     transform: translateX(-50%);
     top: 50%;
   }
-  .about-subtitle {
+  .about-contant.about-subtitle {
     font-size: 32px;
     padding-left: 70px;
   }
@@ -323,4 +368,26 @@
   .banner-title h2 {
     font-size: 40px;
   }
+  .newsletter-form {
+    width: 100%;
+  }
+  .footer-right h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .contact-form .input-group {
+    display: block;
+  }
+  
+  .about-subtitle{
+    font-size: 40px;
+    padding-left: 80px;
+  }
+
+  .subtitle::before{
+    width: 50px;
+  }
+.subtitle{
+  padding-left: 60px;
+}
 }
