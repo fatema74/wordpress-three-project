@@ -387,5 +387,7 @@
   .subtitle::before{
     width: 50px;
   }
-
+.subtitle{
+  padding-left: 60px;
+}
 }
